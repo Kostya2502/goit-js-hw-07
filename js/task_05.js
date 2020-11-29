@@ -5,3 +5,5 @@ inputRef.addEventListener('input', () => {
     outputRef.textContent = inputRef.value;
     if (inputRef.value === '') outputRef.textContent = 'незнакомец'
 })
+
+// inputRef.value ? outputRef = inputRef.value : outputRef = 'незнакомец'

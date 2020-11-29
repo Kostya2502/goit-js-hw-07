@@ -8,5 +8,3 @@ console.log(`В списке ${allLiRef} категории`);
 const сategories = document.querySelectorAll('h2').forEach(element =>
     console.log(`Категория: ${element.textContent}\n Количество эл-тов: ${element.nextElementSibling.children.length}`)
 )
-
-
